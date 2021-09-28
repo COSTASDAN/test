@@ -1,0 +1,10 @@
+weight = int( raw_input(" Βάρος ατόμου σε κιλά = ") )
+pos = int( raw_input(" Σειρά = ") )
+persons = 0
+capacity = 500
+while weight <= capacity :
+ pos = int( raw_input(" Σειρά = ") )
+ capacity = capacity – weight
+ persons = persons + 1
+ weight = int( raw_input(" Βάρος ατόμου σε κιλά = ") )
+print " Σειρά τελευταίου " , pos
